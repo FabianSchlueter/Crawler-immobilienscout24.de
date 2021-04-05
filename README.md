@@ -5,9 +5,11 @@ This crawler goes through all results of multiple previously defined searches fo
 By this you can get data (about 90 features) for all current real estate offers at once.
 
 ## How to use:
-Specify a search on www.immobilienscout24.de manually. Paste the url of the first result page and a name in the dataframe df_search.
+Specify one or multiple searches on www.immobilienscout24.de manually. Paste the url of the first result page and a name in the dataframe df_search.
 
 Specify the path where to store the crawled data.
+
+Download driver for your webbrowser (e.g. https://chromedriver.chromium.org/ if using Chrome) and adjust its path.
 
 Run the file.
 
