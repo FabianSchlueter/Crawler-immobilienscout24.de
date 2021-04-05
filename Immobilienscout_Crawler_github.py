@@ -14,7 +14,8 @@ import time
 import pandas as pd
 import numpy as np
 #%%
-# Set search urls and names for the data outout
+# Set search urls and names for the data output
+# URL: Order by date desc and add '&pagenumber=' at end
 df_search = pd.DataFrame(np.array([
                                     ['Duesseldorf', 'https://www.immobilienscout24.de/Suche/de/nordrhein-westfalen/duesseldorf/wohnung-mieten?sorting=2&pagenumber=']
                                    ]),
